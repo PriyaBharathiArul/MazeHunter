@@ -1,0 +1,24 @@
+{
+    "name": "dynamicblockh",
+    "type": "dynamic",
+    "description": "Horizontal block for dynamic walls.",
+    "shape": [
+        { "x": -40, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 10, "y": -10 },
+        { "x": -40, "y": -10 }
+    ],
+    "color": "orange",
+    "outline": "black",
+    "static": true,
+    "immovable": true,
+    "density": 1.0,
+    "friction": {
+        "collision": 1,
+        "linear": 40,
+        "rotational": 0
+      },
+      "mass": 100,  
+      "sensors": [],  
+    "controller": "lib/dynamicblockh.so"
+}

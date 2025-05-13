@@ -1,0 +1,15 @@
+{
+  "name": "bulletenemy",
+  "type": "dynamic",
+  "description": "A fast-moving bullet that is shot by the enemy.",
+  "shape": "omni",
+  "radius": 2,
+  "mass": 0.1,
+  "friction": {
+    "collision": 0,
+    "linear": 0,
+    "rotational": 0
+  },
+  "sensors": [],
+  "controller": "lib/bulletenemy.so"
+}
